@@ -4,7 +4,7 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 try:
-    number = int(input("Enter a non-negative integer: "))
+    number = int(input("Enter a integer(positive): "))
     if number < 0:
         print("Factorial is not defined for negative numbers.")
     else:
